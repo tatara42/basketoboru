@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Timer;
+  src: url(timer.ttf);
+}
+
+body{
+    background-image: url('basketball.jpg');
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body,
+h1,
+h3 {
+    margin: 0px;
+}
+
+.bg-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    position: relative;
+    display: flex;
+    background: #1B244A;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 575px;
+    height: 385px;
+
+}
+
+.team,
+.team2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.point-container {
+    background: black;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 21px 0px 26px 0px;
+    padding: 15px 15px 0px 15px;
+}
+
+button, 
+h1 {
+    font-family: Timer;
+}
+
+h1 {
+    color: #F94F6D;
+    font-size: 90px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+.button-layout {
+    display: flex;
+    column-gap: 10px;
+}
+
+.button {
+    background: #1B244A;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    height: 45px;
+    width: 45px;
+}
+.reset-button {
+    background: #1B244A;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+}
